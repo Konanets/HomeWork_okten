@@ -1,0 +1,80 @@
+.container{
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.block{
+    width: 250px;
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 30px;
+    border: 0.5px solid black;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-star{
+    font-size: 30px;
+    color: #999999;
+}
+.fa-location-dot{
+    font-size: 30px;
+    color: #999999;
+}
+.fa-fire-flame-curved{
+    font-size: 30px;
+    color: #999999;
+}
+.fa-earth-europe{
+    font-size: 30px;
+    color: #999999;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.description>h3{
+    color: #C68C61;
+    font-size: 30px;
+}
+
+.description>p{
+    box-sizing: border-box;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.buttons>button{
+    height: 50px;
+    width: 140px;
+    color: white;
+    background: #55C3B6;
+    border: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header>p{
+    font-size: 36px;
+}

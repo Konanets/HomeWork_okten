@@ -1,0 +1,50 @@
+.container{
+    padding: 0 25% 0 25%;
+
+    width: 50%;
+}
+.container div{
+    padding: 2% 0;
+}
+.widgets{
+    height: 250px;
+    background: #2269BB;
+}
+
+.widgets>p{
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    padding-top:  60px;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.medboxes{
+    height: 220px;
+    width: 30%;
+    background: #16457A;
+}
+.medboxes>p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.footer{
+    background: #2269BB;
+    height: 350px;
+}
+
+.footer>p{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 145px;
+}
