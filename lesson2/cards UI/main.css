@@ -1,0 +1,74 @@
+body{
+    background: #34CD9E;
+}
+.container{
+    box-sizing: border-box;
+    margin: 20px 20%;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block{
+    height: auto;
+    width: 265px;
+    background: #131D26;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.fa-quote-right{
+    font-size: 56px;
+    color: #2FD09F;
+}
+.description{
+    padding: 0 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description>p{
+    font-size: 16px;
+    color: #DDE2E8;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.photo1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: url(https://media.istockphoto.com/photos/headshot-of-44-year-old-mixed-race-man-in-casual-polo-shirt-picture-id1264106963?b=1&k=20&m=1264106963&s=170667a&w=0&h=dLQliHpFkaweGQhiRfkNGkwsAPoKCEy9UWWk-m2iCCk=) no-repeat -37px 0;
+    background-size: auto 112px;
+}
+.photo2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: url(https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjZXN8ZW58MHx8MHx8&w=1000&q=80) no-repeat -1px 0;
+    background-size: auto 131px;
+}
+.photo3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: url(http://st2.depositphotos.com/1715570/5634/i/450/depositphotos_56347297-Beautiful-young-black-woman-smiling.jpg) no-repeat -19px 0;
+    background-size: auto 100px;
+}
+
+.footer>p{
+    margin: 5px;
+    font-size: 20px;
+    color: #34CD9E;
+    font-weight: bold;
+}
