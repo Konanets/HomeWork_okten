@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 80px auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+.box{
+    width: 300px;
+    height: 340px;
+    background: white;
+    border: 2px solid #C6C6C6;
+    padding: 25px;
+    position: relative;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.description>span{
+    padding-top: 52px;
+    padding-bottom: 22px;
+    font-size: 25px;
+}
+.description>p{
+    font-size: 18px;
+    color: #A2A2A2;
+    line-height: 30px;
+    text-align: center;
+}
+
+.box-bottom{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-bottom>a>button{
+    height: 48px;
+    width: 200px;
+    background: white;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.box-bottom>a>button:hover{
+    cursor: pointer;
+}
+
+
+.circle{
+    height: 95px;
+    width: 94px;
+    border-radius: 50%;
+    border: 2px solid #C6C6C6;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform:translate( -50%);
+    background: center / cover no-repeat url("https://i.gifer.com/CwgH.gif");
+}

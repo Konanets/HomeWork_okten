@@ -2,10 +2,10 @@ body{
     background: #06BCD4;
 }
 .container{
-    margin: 5% 10%;
+    margin: 15px auto;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     flex-wrap: wrap;
 }
 
